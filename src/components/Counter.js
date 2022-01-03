@@ -31,6 +31,7 @@ function Counter(props) {
           +
         </button>
       </div>
+      testing to see if Ci works
       <Parity count={count} />
     </div>
   );
