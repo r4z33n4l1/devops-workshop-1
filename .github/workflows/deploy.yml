@@ -25,14 +25,14 @@ jobs:
           npm install
           npm build
           npm test
-      - name: archive Build for later job(s)
+      - name: archive build for subsequent job(s)
         uses: actions/upload-artifact@v2
         with:
           name: build
           path: build
   deploy:
     name: Deploy
-    needs: build
+    needs: build_and_test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
