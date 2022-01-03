@@ -1,4 +1,4 @@
-Clone this repository to your local computer.
+<!-- Clone this repository to your local computer.
 Then inside the repository
 
 Make sure you are logged into firebase run the following commands: 
@@ -24,12 +24,12 @@ Then run
 firebase deploy
 ```
 
-The link to the live app will be outputted in your terminal 
+The link to the live app will be outputted in your terminal  -->
 
 
 
 
-# React specific commands
+# React commands
 
 To do anything with this project, first install the required dependencies with 
 ```
