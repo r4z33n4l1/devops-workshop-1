@@ -43,7 +43,7 @@ npm start
 
 To run the tests
 ```
-npm test
+npm run test
 ```
 
 
