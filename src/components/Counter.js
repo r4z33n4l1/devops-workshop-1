@@ -28,10 +28,9 @@ function Counter(props) {
           onClick={increaseCount}
           style={{ width: "200px", fontSize: "30px" }}
         >
-          +
+          -
         </button>
       </div>
-      testing to see if Ci works
       <Parity count={count} />
     </div>
   );
