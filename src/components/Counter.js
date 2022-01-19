@@ -15,6 +15,7 @@ function Counter(props) {
   return (
     <div>
       <h1>Razeen</h1>
+      <h2>Razeen 2</h2>
       <h1 data-testid="count">{count}</h1>
       <div style={{ display: "flex" }}>
         <button
